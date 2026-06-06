@@ -1,0 +1,15 @@
+{
+  "name": "json-server-api",
+  "version": "1.0.0",
+  "description": "Public JSON Server API with 14k records",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json --port $PORT"
+  },
+  "dependencies": {
+    "json-server": "^0.17.0"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
